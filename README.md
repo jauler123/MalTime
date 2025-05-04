@@ -4,6 +4,7 @@ the events that occured during the execution of the malware. The tool has filter
 processes, filtering for dll's and exe's, filtering for file paths and finally, user interaction/activity mimicked in cuckoo.
 Author: Josh Auler
 Email: jta2866@rit.edu
+Course: Advanced Malware Forensics
 
 
 To run the application:
