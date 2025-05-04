@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Malware Timeline</title>
+  <link
+    href="https://unpkg.com/vis-timeline@latest/styles/vis-timeline-graph2d.min.css"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <style>
+    body { font-family:'Roboto',sans-serif; background:#f5f5f5; margin:2rem; }
+    h2   { color:#333; font-weight:500; }
+    .log-info {
+      margin-bottom:1rem; padding:.5rem 1rem; background:#e8eaf6;
+      border-left:4px solid #3f51b5; border-radius:4px;
+      font-weight:500; color:#303f9f;
+    }
+
+    /* Tabs */
+    .tabs { margin-bottom:1rem; }
+    .tabs button {
+      padding:.5rem 1rem; border:none; background:#eee;
+      cursor:pointer; font-weight:500; margin-right:.5rem;
+    }
+    .tabs button.active { background:#ccc; }
+
+    /* Overview container */
+    #overview-container {
+      border:1px solid #ddd; border-radius:8px;
+      background:#fff; box-shadow:0 4px 16px rgba(0,0,0,0.1);
+      height:600px; position:relative;
+    }
+    #vis-timeline { height:100%; }
+
+    /* Bucket Info pane */
+    #bucket-info {
+      display:none;
+      position:absolute; bottom:0; left:0; right:0;
+      height:400px;          
+      overflow-y:auto;
+      background:#fff;
+      border-top:1px solid #ddd;
+      padding:1rem;
+      box-shadow:0 -4px 8px rgba(0,0,0,0.1);
+      font-size:.9rem;
+    }
+
+    /* Details container hidden by default */
+    #details-container {
+      display: none;
+    }
+
+    /* Filter panel */
+    .filter-panel {
+      display:flex; align-items:center; gap:3rem; margin-bottom:1rem;
+    }
+    .filter-panel label,
+    .filter-panel input[type="text"],
+    .filter-panel select {
+      margin-right:1rem; font-weight:700;
+      display:flex; align-items:center; gap:.25rem;
+    }
+    .filter-panel input[type="text"],
+    .filter-panel select {
+      padding:.25rem .5rem; border:1px solid #ccc; border-radius:4px; flex:none;
+    }
+    .filter-panel input[type="text"] { width:240px; }
+
+    /* Details timeline styling */
+    .timeline {
+      background:#fff; border-radius:8px; box-shadow:0 4px 16px rgba(0,0,0,0.1);
+      max-height:600px; overflow-y:auto; padding:1rem; border:1px solid #ddd;
+    }
+    .timeline-header {
+      display:flex; align-items:center; padding:.5rem 1rem;
+      border-bottom:1px solid #ddd; font-weight:700; color:#444;
+      margin-bottom:.5rem;
+    }
+    .timestamp-col { width:240px; margin-right:1rem; }
+    .type-col      { width:100px; margin-right:1rem; }
+    .module-col    { width:200px; margin-right:1rem; }
+    .desc-col      { flex:1; }
+
+    .timeline details {
+      margin:.5rem 0; border-left:4px solid #6200ee;
+      border-radius:4px; background:#fafafa; padding:.5rem 1rem;
+      transition:background .2s;
+    }
+    .timeline details:hover { background:#e3f2fd; }
+    .timeline details.module-analyzer             { border-left-color:#0277bd; }
+    .timeline details.module-modules_auxiliary_human { border-left-color:#c2185b; }
+
+    .timeline summary {
+      list-style:none; cursor:pointer; display:flex; align-items:center;
+    }
+    .timeline summary::-webkit-details-marker { display:none; }
+    .timeline summary .timestamp {
+      width:240px; margin-right:1rem; flex:none;
+      color:#666; font-weight:500;
+    }
+    .timeline summary .type {
+      width:100px; margin-right:1rem; flex:none;
+      color:#666; font-weight:500;
+    }
+    .timeline summary .module {
+      width:200px; margin-right:1rem; flex:none;
+      color:#444; font-weight:500;
+    }
+    .timeline summary .desc {
+      flex:1; color:#222;
+    }
+    .details-content {
+      margin-top:.5rem; padding-left:1.5rem; color:#444;
+    }
+  </style>
+</head>
+<body>
+  <h2>Malware Execution Timeline</h2>
+  <div class="log-info">
+    Analyzing log: <strong>{{ log_filename }}</strong> — <strong>{{ entry_count }}</strong> entries
+  </div>
+
+  <div class="tabs">
+    <button id="tab-overview" class="active">Overview</button>
+    <button id="tab-details">Details</button>
+  </div>
+
+  <!-- Overview Tab -->
+  <div id="overview-container">
+    <div id="vis-timeline"></div>
+    <div id="bucket-info"></div>
+  </div>
+
+  <!-- Details Tab -->
+  <div id="details-container">
+    <div class="filter-panel">
+      <span>Filters:</span>
+      <input type="text" id="search-input" placeholder="Search descriptions…">
+      <label><input type="checkbox" id="chk-processes"> Processes</label>
+      <label><input type="checkbox" id="chk-ui">        User Interaction</label>
+      <label><input type="checkbox" id="chk-filepaths"> File Paths</label>
+      <label for="ext-filter">Extension:</label>
+      <select id="ext-filter">
+        <option value="">All extensions</option>
+        <option value=".exe">.exe</option>
+        <option value=".dll">.dll</option>
+      </select>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-header">
+        <span class="timestamp-col">Timestamp</span>
+        <span class="type-col">Type</span>
+        <span class="module-col">Module</span>
+        <span class="desc-col">Description</span>
+      </div>
+      {% for e in events %}
+      <details class="module-{{ e.module.replace('.', '_') }}" data-type="{{ e.type }}">
+        <summary>
+          <span class="timestamp">{{ e.time }}</span>
+          <span class="type">{{ e.type }}</span>
+          <span class="module">{{ e.module }}</span>
+          <span class="desc">{{ e.desc }}</span>
+        </summary>
+        <div class="details-content">
+          Full description: {{ e.desc }}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+  <script>
+    // Data from Flask
+    const overviewItems = new vis.DataSet({{ aggregated|tojson }});
+    const buckets       = {{ buckets|tojson }};
+
+    // Initialize Vis Timeline
+    const timeline = new vis.Timeline(
+      document.getElementById('vis-timeline'),
+      overviewItems,
+      { showMajorLabels:true, stack:false, zoomable:false }
+    );
+
+    // On bar click, show details in the pane
+    const infoPane = document.getElementById('bucket-info');
+    timeline.on('select', props => {
+      if (!props.items.length) {
+        infoPane.style.display = 'none';
+        return;
+      }
+      const id  = props.items[0];
+      const evs = buckets[id] || [];
+      let html  = `<strong>${evs.length} events in this minute:</strong><ul>`;
+      evs.forEach(e => {
+        html += `<li>${e.time} [${e.type}] ${e.module}: ${e.desc}</li>`;
+      });
+      html += '</ul>';
+      infoPane.innerHTML    = html;
+      infoPane.style.display = 'block';
+    });
+
+    // Tab switching logic
+    const tabOv = document.getElementById('tab-overview'),
+          tabDt = document.getElementById('tab-details'),
+          ovC   = document.getElementById('overview-container'),
+          dtC   = document.getElementById('details-container');
+
+    // On load: show overview, hide details
+    ovC.style.display = 'block';
+    dtC.style.display = 'none';
+
+    tabOv.onclick = () => {
+      tabOv.classList.add('active');  tabDt.classList.remove('active');
+      ovC.style.display = 'block';    dtC.style.display = 'none';
+    };
+    tabDt.onclick = () => {
+      tabDt.classList.add('active');  tabOv.classList.remove('active');
+      dtC.style.display = 'block';    ovC.style.display = 'none';
+    };
+
+    // Details filters
+    const chkProc  = document.getElementById('chk-processes'),
+          chkUI    = document.getElementById('chk-ui'),
+          chkPath  = document.getElementById('chk-filepaths'),
+          extFld   = document.getElementById('ext-filter'),
+          searchIn = document.getElementById('search-input');
+
+    function applyFilter() {
+      const showP = chkProc.checked,
+            showU = chkUI.checked,
+            showF = chkPath.checked,
+            ext   = extFld.value.toLowerCase(),
+            term  = searchIn.value.trim().toLowerCase();
+
+      document.querySelectorAll('#details-container .timeline details')
+        .forEach(el => {
+          const txt = el.querySelector('.desc').textContent.toLowerCase();
+          let ok = true;
+          if (showP  && !(txt.includes('process') || txt.includes('pid'))) ok = false;
+          if (showU  && !txt.includes('button'))                         ok = false;
+          if (showF  && !(/[:\\/]/.test(txt)))                           ok = false;
+          if (ext   && !txt.endsWith(ext))                               ok = false;
+          if (term  && !txt.includes(term))                              ok = false;
+          el.style.display = ok ? '' : 'none';
+        });
+    }
+
+    [chkProc, chkUI, chkPath, extFld].forEach(el =>
+      el.addEventListener('change', applyFilter)
+    );
+    searchIn.addEventListener('input', applyFilter);
+    applyFilter();
+  </script>
+</body>
+</html>
+
+
+
+
