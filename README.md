@@ -23,18 +23,24 @@ To run the application:
 Sample Run of the Application
 
 Step 1
+
 ![image](https://github.com/user-attachments/assets/43826b60-1052-45e7-82fb-329179186f59)
 
 Step 2
+
 ![image](https://github.com/user-attachments/assets/7a8809d6-3f2b-4ffc-8115-21d374ce447d)
 
 Step 3: Output shortened
+
 ![image](https://github.com/user-attachments/assets/22da9e55-ac1a-413e-817e-5ada2f4ea329)
+
 ![image](https://github.com/user-attachments/assets/8b1a8824-b8cb-4c23-a956-2e42b4b77778)
 
 Step 4
+
 ![image](https://github.com/user-attachments/assets/b4d036b4-4c29-43fa-a1e9-ca2fc74f5ef5)
 
 Step 5
+
 ![image](https://github.com/user-attachments/assets/054f7681-0bec-4ea0-a924-1ee355562f10)
 
