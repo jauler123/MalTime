@@ -133,4 +133,4 @@ if __name__ == "__main__":
         raise FileNotFoundError(f"No such log: {LOG_PATH}")
 
     # Start Flask -> if debug mode needed, set to "True"
-    app.run(debug=False)
+    app.run(debug=True)
