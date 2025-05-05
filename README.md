@@ -15,3 +15,5 @@ To run the application:
     3. To run MalTime, enter "python3 app.py --logpath {path to your analysis.log file}".
 
     4. In a web browser, go to http://127.0.0.1:5000 and the timeline should be displayed.
+
+![image](https://github.com/user-attachments/assets/b4d036b4-4c29-43fa-a1e9-ca2fc74f5ef5)
