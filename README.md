@@ -12,6 +12,6 @@ To run the application:
     
     2. Run the install.sh script as sudo to install flask dependencies using sudo ./install.sh.
 
-    3. To run MalTime, enter "python3 app.py --logfile {path to your analysis.log file}".
+    3. To run MalTime, enter "python3 app.py --logpath {path to your analysis.log file}".
 
     4. In a web browser, go to http://127.0.0.1:5000 and the timeline should be displayed.
