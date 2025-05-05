@@ -8,8 +8,10 @@ Course: Advanced Malware Forensics
 
 To run the application:
 
-    1. Navigate to the /app directory and run the install.sh script as sudo to install flask dependencies.
+    1. Navigate to the /app directory and run sudo chmod +x install.sh to give the install script permission to execute
+    
+    2. Run the install.sh script as sudo to install flask dependencies using sudo ./install.sh.
 
-    2. Navigate to the /app directory and enter "python3 app.py --logfile {path to your analysis.log file}".
+    3. To run MalTime, enter "python3 app.py --logfile {path to your analysis.log file}".
 
-    3. In a web browser, go to http://127.0.0.1:5000 and the timeline should be displayed.
+    4. In a web browser, go to http://127.0.0.1:5000 and the timeline should be displayed.
