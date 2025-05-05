@@ -1,0 +1,72 @@
+2025-04-06 14:41:15,069 [analyzer] DEBUG: Starting analyzer from: C:\tmpvkq6qp
+2025-04-06 14:41:15,069 [analyzer] DEBUG: Pipe server name: \??\PIPE\VfAPNlHQhZoBrsejo
+2025-04-06 14:41:15,069 [analyzer] DEBUG: Log pipe server name: \??\PIPE\xVbanbYmkwDaqkYOsaSiCSELci
+2025-04-06 14:41:15,079 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.
+2025-04-06 14:41:15,079 [analyzer] INFO: Automatically selected analysis package "exe"
+2025-04-06 14:41:15,599 [analyzer] DEBUG: Started auxiliary module DbgView
+2025-04-06 14:41:17,723 [analyzer] DEBUG: Started auxiliary module Disguise
+2025-04-06 14:41:18,134 [analyzer] DEBUG: Loaded monitor into process with pid 500
+2025-04-06 14:41:18,134 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2025-04-06 14:41:18,144 [analyzer] DEBUG: Started auxiliary module Human
+2025-04-06 14:41:18,144 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2025-04-06 14:41:18,154 [analyzer] DEBUG: Started auxiliary module Reboot
+2025-04-06 14:41:18,253 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:18,283 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2025-04-06 14:41:18,334 [modules.auxiliary.screenshots] INFO: Python Image Library (either PIL or Pillow) is not installed, screenshots are disabled.
+2025-04-06 14:41:18,334 [analyzer] DEBUG: Started auxiliary module Screenshots
+2025-04-06 14:41:18,344 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2025-04-06 14:41:18,654 [lib.api.process] INFO: Successfully executed process from path u'C:\\Users\\cuckoo1\\AppData\\Local\\Temp\\VirusShare_e95ac5d39be9eca7af0ee72a62aeffec.exe' with arguments '' and pid 2824
+2025-04-06 14:41:18,884 [analyzer] DEBUG: Loaded monitor into process with pid 2824
+2025-04-06 14:41:19,266 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:19,375 [analyzer] INFO: Added new file to list with pid 2824 and path C:\Users\cuckoo1\AppData\Local\Temp\is-OE845.tmp\VirusShare_e95ac5d39be9eca7af0ee72a62aeffec.tmp
+2025-04-06 14:41:19,546 [analyzer] INFO: Injected into process with pid 2916 and name ''
+2025-04-06 14:41:19,825 [analyzer] DEBUG: Loaded monitor into process with pid 2916
+2025-04-06 14:41:20,266 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:22,559 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:23,582 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:24,632 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:25,805 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\Local\Temp\is-CSSHF.tmp\itdownload.dll
+2025-04-06 14:41:26,996 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:27,788 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\Local\Temp\is-CSSHF.tmp\rkverify.exe
+2025-04-06 14:41:28,007 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:28,177 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\Local\Temp\is-CSSHF.tmp\rkinstaller.exe
+2025-04-06 14:41:29,029 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:31,092 [modules.auxiliary.human] INFO: Found button u'&Next >', clicking it
+2025-04-06 14:41:32,283 [analyzer] INFO: Injected into process with pid 3144 and name u'rkverify.exe'
+2025-04-06 14:41:32,323 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:32,595 [analyzer] DEBUG: Loaded monitor into process with pid 3144
+2025-04-06 14:41:33,355 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:34,387 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:51:05,171 [modules.auxiliary.human] INFO: Found button u'&Next >', clicking it
+2025-04-06 13:51:06,292 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\Local\Temp\is-CSSHF.tmp\original.bmp
+2025-04-06 13:51:06,342 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\Local\Temp\is-CSSHF.tmp\trees.bmp
+2025-04-06 13:51:06,533 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 13:51:07,585 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:51:08,607 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:51:09,638 [modules.auxiliary.human] INFO: Found button u'OK', clicking it
+2025-04-06 13:51:11,671 [analyzer] INFO: Process with pid 3144 has terminated
+2025-04-06 13:51:11,901 [modules.auxiliary.human] INFO: Found button u'&Next >', clicking it
+2025-04-06 13:53:29,098 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 13:53:30,119 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:53:31,131 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:53:33,184 [modules.auxiliary.human] INFO: Found button u'&Next >', clicking it
+2025-04-06 13:53:34,226 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 13:53:35,257 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:53:36,269 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:53:38,072 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\Local\Temp\CabC3F5.tmp
+2025-04-06 13:53:43,479 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\94308059B57B3142E455B38A6EB92015
+2025-04-06 13:53:43,509 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\94308059B57B3142E455B38A6EB92015
+2025-04-06 13:53:43,588 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Users\cuckoo1\AppData\Local\Temp\CabD985.tmp
+2025-04-06 13:53:43,759 [modules.auxiliary.human] INFO: Found button u'&Next >', clicking it
+2025-04-06 13:53:44,371 [analyzer] INFO: Injected into process with pid 332 and name u'rkinstaller.exe'
+2025-04-06 13:53:44,790 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Program Files\All Free DVD to AVI Converter\is-3O4MP.tmp
+2025-04-06 13:53:44,960 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 13:53:45,012 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Program Files\All Free DVD to AVI Converter\FFMpeg\is-HEPNJ.tmp
+2025-04-06 13:53:46,042 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:53:46,292 [analyzer] DEBUG: Loaded monitor into process with pid 332
+2025-04-06 13:53:47,105 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 13:53:47,484 [analyzer] INFO: Analysis timeout hit, terminating analysis.
+2025-04-06 13:53:48,436 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Program Files\All Free DVD to AVI Converter\FFMpeg\is-HEPNJ.tmp
+2025-04-06 13:53:49,717 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Program Files\All Free DVD to AVI Converter\FFMpeg\is-HEPNJ.tmp
+2025-04-06 13:53:50,640 [analyzer] INFO: Added new file to list with pid 2916 and path C:\Program Files\All Free DVD to AVI Converter\FFMpeg\is-HEPNJ.tmp
+2025-04-06 13:53:51,581 [analyzer] INFO: Analysis completed.
