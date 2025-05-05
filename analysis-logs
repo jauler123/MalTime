@@ -1,0 +1,362 @@
+2025-04-06 14:41:15,140 [analyzer] DEBUG: Starting analyzer from: C:\tmpvkq6qp
+2025-04-06 14:41:15,140 [analyzer] DEBUG: Pipe server name: \??\PIPE\uGNRGuMecKBzIGNyEzSRGqp
+2025-04-06 14:41:15,160 [analyzer] DEBUG: Log pipe server name: \??\PIPE\eQLzkQaOzeJuJrvcchhybWzS
+2025-04-06 14:41:15,160 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.
+2025-04-06 14:41:15,170 [analyzer] INFO: Automatically selected analysis package "exe"
+2025-04-06 14:41:15,700 [analyzer] DEBUG: Started auxiliary module DbgView
+2025-04-06 14:41:17,642 [analyzer] DEBUG: Started auxiliary module Disguise
+2025-04-06 14:41:17,874 [analyzer] DEBUG: Loaded monitor into process with pid 500
+2025-04-06 14:41:17,894 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2025-04-06 14:41:17,963 [analyzer] DEBUG: Started auxiliary module Human
+2025-04-06 14:41:17,973 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2025-04-06 14:41:17,973 [analyzer] DEBUG: Started auxiliary module Reboot
+2025-04-06 14:41:18,094 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:18,334 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2025-04-06 14:41:18,344 [modules.auxiliary.screenshots] INFO: Python Image Library (either PIL or Pillow) is not installed, screenshots are disabled.
+2025-04-06 14:41:18,344 [analyzer] DEBUG: Started auxiliary module Screenshots
+2025-04-06 14:41:18,364 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2025-04-06 14:41:19,005 [lib.api.process] INFO: Successfully executed process from path u'C:\\Users\\cuckoo1\\AppData\\Local\\Temp\\VirusShare_9bd5b206ec96551f42279bc01b9061dd.exe' with arguments '' and pid 2888
+2025-04-06 14:41:19,115 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:19,385 [analyzer] DEBUG: Loaded monitor into process with pid 2888
+2025-04-06 14:41:20,177 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:20,397 [analyzer] INFO: Injected into process with pid 1284 and name u'explorer.exe'
+2025-04-06 14:41:20,427 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\ƒo[ƒWƒ‡ƒ“ƒAƒbƒv.xls
+2025-04-06 14:41:20,618 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaAddin.xla
+2025-04-06 14:41:21,098 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaMenu.xls
+2025-04-06 14:41:21,187 [analyzer] DEBUG: Loaded monitor into process with pid 1284
+2025-04-06 14:41:21,408 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\CSVZŠ.xls
+2025-04-06 14:41:21,489 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\CSVŽæ“¾.xls
+2025-04-06 14:41:21,698 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\CSV‘rŽ¸.xls
+2025-04-06 14:41:21,838 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\CSVŒŽ•Ï.xls
+2025-04-06 14:41:21,980 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\CSVˆÙ“®.xls
+2025-04-06 14:41:22,119 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\CSVŽZ’è.xls
+2025-04-06 14:41:22,250 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\CSVÜ—^.xls
+2025-04-06 14:41:22,390 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\EAppCom.xla
+2025-04-06 14:41:22,529 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\eGovApi.xlsm
+2025-04-06 14:41:22,640 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ƒXƒ^ƒCƒ‹ƒV[ƒg\495000020447029989.xsl
+2025-04-06 14:41:22,780 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ƒXƒ^ƒCƒ‹ƒV[ƒg\495000020448029990.xsl
+2025-04-06 14:41:22,861 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ƒXƒ^ƒCƒ‹ƒV[ƒg\495000020450029993.xsl
+2025-04-06 14:41:22,980 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ƒXƒ^ƒCƒ‹ƒV[ƒg\495000020626030271.xsl
+2025-04-06 14:41:23,180 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\˜J\1.xls
+2025-04-06 14:41:23,461 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\˜J\2.xls
+2025-04-06 14:41:23,871 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\˜JŠÒ•t¿‹‘.xls
+2025-04-06 14:41:23,891 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:23,982 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\Žè‘±–¼.csv
+2025-04-06 14:41:24,153 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\’ñoæˆê——.xls
+2025-04-06 14:41:24,233 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\”Ô†“o˜^“Í.xlsm
+2025-04-06 14:41:24,322 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ70ÎŽZŒŽÜ.xls
+2025-04-06 14:41:24,423 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ70ÎŠY“–•sŠY“–.xls
+2025-04-06 14:41:24,513 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•Û3†.xls
+2025-04-06 14:41:24,673 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•ÛŽæ“¾.xls
+2025-04-06 14:41:24,783 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•Û‘rŽ¸.xls
+2025-04-06 14:41:24,874 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•Û•}—{“Í.xls
+2025-04-06 14:41:24,983 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•ÛV“K.xls
+2025-04-06 14:41:25,084 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•ÛŽ–¼•ÏX.xls
+2025-04-06 14:41:25,164 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•ÛŽZ’è‘Š‡.xls
+2025-04-06 14:41:25,313 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•ÛÜ—^‘Š‡.xls
+2025-04-06 14:41:25,404 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ•Û“K—pŽ–‹ÆŠ.xls
+2025-04-06 14:41:25,585 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŽÐ”N’ Ä.xls
+2025-04-06 14:41:25,625 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:25,805 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŠJŽn“Í.xls
+2025-04-06 14:41:25,934 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—p‰îŒì.xls
+2025-04-06 14:41:26,095 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—pŽæ“¾.xls
+2025-04-06 14:41:26,196 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—pŠeŽí•ÏX.xls
+2025-04-06 14:41:26,296 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—p‘rŽ¸.xls
+2025-04-06 14:41:26,426 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—p‘rŽ¸’ñoŒãŠúŠÔØ–¾.xls
+2025-04-06 14:41:26,575 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—p‘rŽ¸’ñoŒã—£E•[.xls
+2025-04-06 14:41:26,877 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—p‘rŽ¸ŠúŠÔØ–¾.xls
+2025-04-06 14:41:26,986 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:27,086 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—p‘rŽ¸—£E•[.xls
+2025-04-06 14:41:27,496 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—pŽ–¼•ÏX.xls
+2025-04-06 14:41:27,697 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—pŒp‘±.xls
+2025-04-06 14:41:27,927 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—pŒp‘±‰‰ñ.xls
+2025-04-06 14:41:28,249 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—pŒp‘±‰‰ñ‚È‚µ.xls
+2025-04-06 14:41:28,469 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—pˆçŽ™.xls
+2025-04-06 14:41:28,648 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—pˆçŽ™‰‰ñ.xls
+2025-04-06 14:41:28,950 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\eGov\ŒÙ—p“]‹Î.xls
+2025-04-06 14:41:29,150 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\GrapeCity.ActiveReports.ArsClient.v11.dll
+2025-04-06 14:41:29,309 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\GrapeCity.ActiveReports.Export.Image.Unsafe.v11.dll
+2025-04-06 14:41:29,470 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\MyTool\Ž‘Ši.dat
+2025-04-06 14:41:29,901 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\Newtonsoft.Json.dll
+2025-04-06 14:41:30,322 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:30,651 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\PDF_Data_Picker\OfficialDocArchives.exe
+2025-04-06 14:41:30,802 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\ƒJƒŒƒ“ƒ_[.xls
+2025-04-06 14:41:31,072 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\ƒc[ƒ‹.xls
+2025-04-06 14:41:31,243 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\ƒ[ƒ}ŽšŽ–¼“Í.xls
+2025-04-06 14:41:31,392 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\ˆêŠ‡—LŠú.xls
+2025-04-06 14:41:31,703 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:31,834 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\Ž––±‘g‡.xls
+2025-04-06 14:41:31,993 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\Ž––±‘g‡ˆêŠ‡—LŠú.xls
+2025-04-06 14:41:32,184 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\•ÛŒ¯—¿’Ê’m.xls
+2025-04-06 14:41:32,293 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\Œ’N•ÛŒ¯.exe
+2025-04-06 14:41:32,855 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:34,197 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\Œ’N•ÛŒ¯.pdb
+2025-04-06 14:41:34,407 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\Œ’N•ÛŒ¯.xml
+2025-04-06 14:41:34,477 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\Žæ“¾ŠÖŒW.xls
+2025-04-06 14:41:34,798 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\ŠO‘lŒÙ—p‘ä’ .xls
+2025-04-06 14:41:35,007 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:35,529 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\ŠO‘lŒÙ—p˜A—•\.xls
+2025-04-06 14:41:35,759 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\”N“xXV.xls
+2025-04-06 14:41:36,089 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\VŒ’N•ÛŒ¯\¿‘.xls
+2025-04-06 14:41:36,160 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:36,561 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\V‘²‹l•[.xls
+2025-04-06 14:41:36,861 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\—LŠú—¿—¦.xls
+2025-04-06 14:41:36,921 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\ˆçŽ™‰îŒì‹‹•t.xls
+2025-04-06 14:41:37,250 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\”í•}—{ŽÒ“Í.xls
+2025-04-06 14:41:37,312 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:37,401 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\¿‹‘.xls
+2025-04-06 14:41:37,732 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\“\•t‘äŽ†Œ“ƒ}ƒCƒiƒ“ƒo[î•ñ˜AŒg\o‘.pdf
+2025-04-06 14:41:37,812 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\Ü—^ŒvŽZ.xls
+2025-04-06 14:41:37,911 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\ŒÙ—p•ÛŒ¯Ž‘Ši‘rŽ¸“Í.xls
+2025-04-06 14:41:38,193 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\“dŽq\¿.xls
+2025-04-06 14:41:38,362 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\DaProcess\‚P”N’PˆÊ‚Ì•ÏŒ`˜J“­ŽžŠÔ§‚ÉŠÖ‚·‚é‹¦’è“Í.xls
+2025-04-06 14:41:38,463 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\ver.txt
+2025-04-06 14:41:38,532 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\VerUp.xla
+2025-04-06 14:41:38,612 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\VerUp905‚É.xla
+2025-04-06 14:41:38,713 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\Žg—p‹–‘ø‚É‚Â‚¢‚Ä.txt
+2025-04-06 14:41:38,803 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\‘ä’ Œ´–{.xls
+2025-04-06 14:41:38,963 [analyzer] INFO: Added new file to list with pid 2888 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\UpFile\’À‹àŠÇ—\Addtin.xls
+2025-04-06 14:41:40,085 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:41,117 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:42,128 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:44,282 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:45,423 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:46,494 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:46,515 [analyzer] INFO: Injected into process with pid 3248 and name u'scalc.exe'
+2025-04-06 14:41:47,095 [analyzer] INFO: Process with pid 2888 has terminated
+2025-04-06 14:41:47,256 [analyzer] DEBUG: Loaded monitor into process with pid 3248
+2025-04-06 14:41:47,796 [analyzer] INFO: Injected into process with pid 3300 and name u'soffice.exe'
+2025-04-06 14:41:48,667 [analyzer] DEBUG: Loaded monitor into process with pid 3300
+2025-04-06 14:41:49,007 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:49,028 [analyzer] INFO: Injected into process with pid 3352 and name u'soffice.bin'
+2025-04-06 14:41:50,119 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:51,161 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:52,713 [analyzer] DEBUG: Loaded monitor into process with pid 3352
+2025-04-06 14:41:53,674 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:41:54,867 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:56,078 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:41:58,882 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Roaming\OpenOffice\4\user\E3C6.tmp
+2025-04-06 14:42:00,825 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:01,165 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzqg.tmp
+2025-04-06 14:42:01,466 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Roaming\OpenOffice\4\.lock
+2025-04-06 14:42:02,256 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:02,528 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Roaming\OpenOffice\4\user\F1FA.tmp
+2025-04-06 14:42:03,269 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:06,533 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:07,936 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:08,937 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:12,601 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:13,793 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:14,795 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:16,938 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:18,000 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:19,062 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:21,525 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:22,617 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:23,628 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:25,891 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:26,943 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:28,045 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:30,237 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:31,289 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:32,301 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:34,553 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:35,595 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:35,885 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkub5b.tmp
+2025-04-06 14:42:35,915 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\201804062120DaityoUp\.~lock.ƒo[ƒWƒ‡ƒ“ƒAƒbƒv.xls#
+2025-04-06 14:42:36,766 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:40,693 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:42,275 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:43,276 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:43,996 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkuws8.tmp
+2025-04-06 14:42:44,177 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkuwvu.tmp
+2025-04-06 14:42:45,490 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:46,029 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkuycf.tmp
+2025-04-06 14:42:46,079 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkuyed.tmp
+2025-04-06 14:42:46,089 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkuyex.tmp
+2025-04-06 14:42:46,510 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Roaming\OpenOffice\4\user\uno_packages\cache\stamp.sys
+2025-04-06 14:42:46,671 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:47,673 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:49,915 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Program Files\OpenOffice 4\share\uno_packages\cache\stamp.sys
+2025-04-06 14:42:50,806 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:51,908 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:53,121 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:56,375 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:42:57,526 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:58,538 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:42:58,789 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv873.tmp
+2025-04-06 14:42:58,878 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv89l.tmp
+2025-04-06 14:42:58,908 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8az.tmp
+2025-04-06 14:42:58,959 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8bt.tmp
+2025-04-06 14:42:58,989 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8cx.tmp
+2025-04-06 14:42:58,999 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8dh.tmp
+2025-04-06 14:42:59,029 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8e1.tmp
+2025-04-06 14:42:59,069 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8f5.tmp
+2025-04-06 14:42:59,148 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8hn.tmp
+2025-04-06 14:42:59,168 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8hy.tmp
+2025-04-06 14:42:59,219 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8jd.tmp
+2025-04-06 14:42:59,249 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8k6.tmp
+2025-04-06 14:42:59,269 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8kq.tmp
+2025-04-06 14:42:59,299 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8lk.tmp
+2025-04-06 14:42:59,319 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8m4.tmp
+2025-04-06 14:42:59,359 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8my.tmp
+2025-04-06 14:42:59,380 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8ns.tmp
+2025-04-06 14:42:59,400 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8oc.tmp
+2025-04-06 14:42:59,420 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8om.tmp
+2025-04-06 14:42:59,450 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8pg.tmp
+2025-04-06 14:42:59,470 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8q0.tmp
+2025-04-06 14:42:59,490 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8qu.tmp
+2025-04-06 14:42:59,519 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8ro.tmp
+2025-04-06 14:42:59,529 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8ry.tmp
+2025-04-06 14:42:59,559 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8ss.tmp
+2025-04-06 14:42:59,589 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8tm.tmp
+2025-04-06 14:42:59,609 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8u6.tmp
+2025-04-06 14:42:59,640 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8ug.tmp
+2025-04-06 14:42:59,670 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8vu.tmp
+2025-04-06 14:42:59,680 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8w4.tmp
+2025-04-06 14:42:59,700 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8wo.tmp
+2025-04-06 14:42:59,740 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8xs.tmp
+2025-04-06 14:42:59,759 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8yc.tmp
+2025-04-06 14:42:59,779 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8yw.tmp
+2025-04-06 14:42:59,809 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8zq.tmp
+2025-04-06 14:42:59,829 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv90a.tmp
+2025-04-06 14:42:59,859 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv914.tmp
+2025-04-06 14:42:59,890 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv91z.tmp
+2025-04-06 14:42:59,910 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv92j.tmp
+2025-04-06 14:42:59,930 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv933.tmp
+2025-04-06 14:42:59,970 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv948.tmp
+2025-04-06 14:42:59,990 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv94r.tmp
+2025-04-06 14:43:00,009 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv95b.tmp
+2025-04-06 14:43:00,051 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv965.tmp
+2025-04-06 14:43:00,071 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv96z.tmp
+2025-04-06 14:43:00,091 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv979.tmp
+2025-04-06 14:43:00,111 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv983.tmp
+2025-04-06 14:43:00,131 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv98n.tmp
+2025-04-06 14:43:00,151 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv98x.tmp
+2025-04-06 14:43:00,180 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9a1.tmp
+2025-04-06 14:43:00,190 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9ab.tmp
+2025-04-06 14:43:00,210 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9av.tmp
+2025-04-06 14:43:00,240 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9bp.tmp
+2025-04-06 14:43:00,250 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9bz.tmp
+2025-04-06 14:43:00,270 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9cj.tmp
+2025-04-06 14:43:00,290 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9d3.tmp
+2025-04-06 14:43:00,311 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9dn.tmp
+2025-04-06 14:43:00,331 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9e7.tmp
+2025-04-06 14:43:00,361 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv947.tmp
+2025-04-06 14:43:00,381 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9fl.tmp
+2025-04-06 14:43:00,401 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9g5.tmp
+2025-04-06 14:43:00,421 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9gp.tmp
+2025-04-06 14:43:00,450 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9hj.tmp
+2025-04-06 14:43:00,460 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv8jc.tmp
+2025-04-06 14:43:00,540 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9k1.tmp
+2025-04-06 14:43:00,561 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9kw.tmp
+2025-04-06 14:43:00,591 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9lg.tmp
+2025-04-06 14:43:00,611 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9m0.tmp
+2025-04-06 14:43:00,631 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9mu.tmp
+2025-04-06 14:43:00,661 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9ne.tmp
+2025-04-06 14:43:00,671 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9ny.tmp
+2025-04-06 14:43:00,700 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9oi.tmp
+2025-04-06 14:43:00,721 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9p2.tmp
+2025-04-06 14:43:00,742 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9pm.tmp
+2025-04-06 14:43:01,312 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:01,782 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkv9qg.tmp
+2025-04-06 14:43:02,394 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:02,934 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkvamf.tmp
+2025-04-06 14:43:03,035 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkuyag.tmp
+2025-04-06 14:43:03,394 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:04,977 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkvckt.tmp
+2025-04-06 14:43:05,497 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:06,108 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkvd04.tmp
+2025-04-06 14:43:06,519 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:07,250 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Roaming\OpenOffice\4\user\extensions\tmp\stamp.sys
+2025-04-06 14:43:07,520 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:07,762 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkve9q.tmp
+2025-04-06 14:43:08,532 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkvf8i.tmp
+2025-04-06 14:43:11,026 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:12,197 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:12,719 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkviyb.tmp
+2025-04-06 14:43:13,200 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:15,529 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:16,540 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:17,542 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:19,684 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:20,697 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:21,697 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:22,069 [analyzer] INFO: Added new file to list with pid 3352 and path \Device\NamedPipe\wkssvc
+2025-04-06 14:43:22,069 [analyzer] INFO: Added new file to list with pid 3352 and path \Device\NamedPipe\srvsvc
+2025-04-06 14:43:24,792 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\Cab3361.tmp
+2025-04-06 14:43:24,933 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:25,944 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:26,946 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:29,269 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:30,280 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:30,641 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\94308059B57B3142E455B38A6EB92015
+2025-04-06 14:43:30,651 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\94308059B57B3142E455B38A6EB92015
+2025-04-06 14:43:30,690 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\Cab4A6E.tmp
+2025-04-06 14:43:30,861 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\Cab4B1A.tmp
+2025-04-06 14:43:31,282 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:33,634 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:34,657 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:35,667 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:36,539 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\Cab6154.tmp
+2025-04-06 14:43:36,640 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\Cab61BA.tmp
+2025-04-06 14:43:37,831 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:38,852 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:39,854 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:42,006 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\Cab76B4.tmp
+2025-04-06 14:43:42,088 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:43,098 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:44,099 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:46,223 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:47,234 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:48,236 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:50,348 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:51,371 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:52,371 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:54,474 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:55,496 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:56,138 [analyzer] INFO: Added new file to list with pid 3352 and path C:\Users\cuckoo1\AppData\Local\Temp\svktzxy.tmp\svkwgg7.tmp
+2025-04-06 14:43:56,507 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:43:58,611 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:43:59,622 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:00,634 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:02,806 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:44:03,858 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:04,859 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:06,973 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:44:07,974 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:08,976 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:11,128 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:44:12,141 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:13,141 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:15,315 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:44:16,326 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:17,338 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:19,460 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:44:20,473 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:21,473 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:23,586 [modules.auxiliary.human] INFO: Found button u'&Next', clicking it
+2025-04-06 14:44:24,598 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:25,599 [modules.auxiliary.human] INFO: Found button u'&Finish', clicking it
+2025-04-06 14:44:27,463 [analyzer] INFO: Analysis timeout hit, terminating analysis.
+2025-04-06 14:44:27,473 [analyzer] WARNING: File at path u'\\device\\namedpipe\\srvsvc' does not exist, skip.
+2025-04-06 14:44:27,483 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv9d3.tmp' does not exist, skip.
+2025-04-06 14:44:27,602 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8jd.tmp' does not exist, skip.
+2025-04-06 14:44:27,673 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv9bp.tmp' does not exist, skip.
+2025-04-06 14:44:27,693 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8pg.tmp' does not exist, skip.
+2025-04-06 14:44:27,822 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8ns.tmp' does not exist, skip.
+2025-04-06 14:44:27,822 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv983.tmp' does not exist, skip.
+2025-04-06 14:44:27,832 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8hn.tmp' does not exist, skip.
+2025-04-06 14:44:27,953 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv91z.tmp' does not exist, skip.
+2025-04-06 14:44:27,983 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8tm.tmp' does not exist, skip.
+2025-04-06 14:44:28,013 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv948.tmp' does not exist, skip.
+2025-04-06 14:44:28,053 [analyzer] WARNING: File at path u'\\device\\namedpipe\\wkssvc' does not exist, skip.
+2025-04-06 14:44:28,124 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8lk.tmp' does not exist, skip.
+2025-04-06 14:44:28,134 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8ro.tmp' does not exist, skip.
+2025-04-06 14:44:28,364 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8vu.tmp' does not exist, skip.
+2025-04-06 14:44:28,374 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8zq.tmp' does not exist, skip.
+2025-04-06 14:44:28,654 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8hy.tmp' does not exist, skip.
+2025-04-06 14:44:28,684 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv965.tmp' does not exist, skip.
+2025-04-06 14:44:29,224 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv8xs.tmp' does not exist, skip.
+2025-04-06 14:44:29,234 [analyzer] WARNING: File at path u'c:\\users\\cuckoo1\\appdata\\local\\temp\\svktzxy.tmp\\svkv9a1.tmp' does not exist, skip.
+2025-04-06 14:44:29,234 [analyzer] INFO: Analysis completed.
